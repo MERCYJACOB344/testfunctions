@@ -7,7 +7,7 @@ const pool = new Pool({
     host: 'nestit-337',
     database: 'test',
     password: 'dbuser',
-    port: 5432,
+    port: 5432
 });
 
 app.http('httpTrigger', {
